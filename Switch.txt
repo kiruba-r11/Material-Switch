@@ -1,0 +1,28 @@
+- Switches are preferable way to adjust settings on mobile.
+- Actions are taken immediately.
+- It can be used when a setting needs to be independently controlled.
+
+- Parts:
+	1. Thumb
+	2. Track
+
+- Processing states can be displayed if action takes some delay.
+
+- `SwitchMaterial` provides complete implementation of a Material Design's switch which extends from `SwitchCompat`
+
+
+- Attributes:
+	1. checked -> to check the switch
+	2. enabled -> to enable the switch
+	3. thumbTint -> to color the thumb
+	4. trackTint -> to color the track
+	5. switchPadding -> space between switch and its caption
+	6. text and other text related attributes
+
+- Listeners:
+	1. switchMaterial.setOnCheckedChangeListerner { buttonView , isChecked
+		// code
+	}
+
+- Dependancy:
+	implementation "com.google.android.material:material:1.4.0-alpha01"
