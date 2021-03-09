@@ -20,7 +20,7 @@
 	6. text and other text related attributes
 
 - Listeners:
-	1. switchMaterial.setOnCheckedChangeListerner { buttonView , isChecked
+	1. switchMaterial.setOnCheckedChangeListener { buttonView , isChecked
 		// code
 	}
 
